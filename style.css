@@ -22,10 +22,10 @@ time, mark, audio, video {
  vertical-align: baseline;
 }
 
-/*article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
  display: block;
-}*/
+}
 
 blockquote, q { quotes: none; }
 
@@ -96,11 +96,11 @@ h4 {
 }
 
 .employ {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .education {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 a {
