@@ -2,19 +2,24 @@
 <head>
   <meta charset="utf-8">
   <title>Alyssa Boyd's Resume</title>
-
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Vollkorn|Sarala' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <section id="wrapper">
-    <div id="about">
-      <h1 id="hello">Hello!</h1>
-      <h1 id="name">My name is Alyssa Boyd</h1>
-      <h3 id="tagline">Aspiring Web Developer. Blogger. Coffee Lover.</h3>
+  <main id="main">
+    <!--This is the left portion of the page-->
+    <section id="about">
+      <header>
+        <!--I need to make this part more responsive-->
+        <h1 id="hello">Hello!</h1>
+        <h1 id="name">My name is Alyssa Boyd</h1>
+        <h3 id="tagline">Aspiring Web Developer. Blogger. Coffee Lover.</h3>
+      </header>
       <div id="work">
         <h4>PROFESSIONAL EXPERIENCE</h4>
           <ul>
+            <!--Maybe should make the heading lines bold, to differentiate more from the rest of text. Too hard to read?-->
+            <!--May need to get rid of some of the listings when I start looking for a Software Engineering job, most aren't at all related-->
             <li class="employ">Administrative Assistant/Production Assistant | Wells Concrete | Maple Grove, MN | 2013-2016</li>
             <ul class="description">
               <li>Maintained spreadsheets and records for tracking employee attendance and training</li>
@@ -87,9 +92,11 @@
             </ul>
           </ul>
         </div>
-    </div>
+    </section>
+  </main>
   <aside>
       <img src="http://i1308.photobucket.com/albums/s602/lysautumn/black%20and%20white_zpsh1p16uqj.jpg" alt="Alyssa Boyd"/>
+      <!--Could make the contact area <nav>-->
       <ul id="contact-list">
         <li class="contact"><a href="mailto:alyssa.boyd85@gmail.com"><img src="http://i1308.photobucket.com/albums/s602/lysautumn/email_zpsxhs0sqst.png" alt="Email Icon"></a></li>
         <li class="contact"><a href="http://www.github.com/Lysautumn" target="_blank"><img src="http://i1308.photobucket.com/albums/s602/lysautumn/github_zps3gpmrisv.png" alt="GitHub Icon"></a></li>
@@ -100,11 +107,13 @@
       </ul>
       <div id="sidebar-info">
         <h4 class="sidebar-headers">PROFILE</h4>
+        <!--Able to update as my goals and experience change-->
           <p>Curious. Tenacious. Creative. I am looking to improve my skills in software engineering in a fast-paced environment, surrounded by other learners.</p>
           <p>Goal-oriented, I want to get a job in a software engineer or web development role. I am both creative and logical, so I look forward to being able to put both of them to use!</p>
           <br>
         <h4 class="sidebar-headers">SKILLS</h4>
           <p>I recently completed the three month Web Developer Blueprint through <a href="http://www.skillcrush.com" title="Skillcrush" target="_blank">Skillcrush</a>, where I began learning:</p>
+            <!--Can add Prime here as well, add new skills as I learn them-->
             <ul id="skills-list">
               <li>HTML</li>
               <li>CSS</li>
@@ -118,6 +127,7 @@
           <p>I am excited to continue learning and start coding!</p>
         <br>
         <h4 class="sidebar-headers">EDUCATION</h4>
+        <!--Maybe make the heading lines here bold as well. Also difficult to read.-->
           <ol>
             <li class="education">Web Developer Blueprint</li>
             <li>Skillcrush | Feb 2016-Apr 2016</li>
@@ -130,6 +140,5 @@
           </ol>
       </div>
     </aside>
-  </section>
 </body>
 </html>
