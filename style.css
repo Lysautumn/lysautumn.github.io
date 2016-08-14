@@ -54,6 +54,8 @@ body {
   background: url("http://i1308.photobucket.com/albums/s602/lysautumn/industrial_zpsj85uumye.jpg") no-repeat fixed center center / cover;
 }
 
+/*Fonts, etc*/
+
 #hello, h3 {
   font-family: 'Grand Hotel', cursive;
   color: #cc5200;
@@ -82,11 +84,37 @@ h4 {
   color: #0d0d0d;
 }
 
+#hello {
+  font-size: 120px;
+  margin-left: 15px;
+}
+
+#name {
+  font-size: 60px;
+  line-height: 5%;
+  text-align: center;
+}
+
+.employ {
+  font-weight: bold;
+}
+
+.education {
+  font-weight: bold;
+}
+
+a {
+  font-weight: bolder;
+  color: #0d0d0d;
+}
+
 ul, ol {
   list-style-type: none;
 }
 
-#wrapper {
+/*Layout*/
+
+#main {
   display: flex;
   max-width: 1300px;
   margin: 0 auto;
@@ -104,17 +132,6 @@ aside {
   flex-shrink: 0;
   width: 400px;
   border-top-right-radius: 130px;
-}
-
-#hello {
-  font-size: 120px;
-  margin-left: 15px;
-}
-
-#name {
-  font-size: 60px;
-  line-height: 5%;
-  text-align: center;
 }
 
 #work, #sidebar-info {
@@ -143,10 +160,6 @@ img {
   font-weight: bold;
 }
 
-.employ {
-  font-weight: bold;
-}
-
 .description {
   list-style-type: circle;
   padding-left: 40px;
@@ -154,15 +167,6 @@ img {
 
 .sidebar-headers {
   padding-top: 25px;
-}
-
-.education {
-  font-weight: bold;
-}
-
-a {
-  font-weight: bolder;
-  color: #0d0d0d;
 }
 
 @media all and (max-width: 800px) {
