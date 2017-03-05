@@ -111,10 +111,6 @@ ul, ol {
 
 /*Layout*/
 
-header {
- padding-bottom: 50px;
-}
-
 #main {
   display: flex;
   max-width: 1300px;
@@ -125,6 +121,7 @@ header {
 #about {
   background-color: #d9d9d9;
   padding-right: 75px;
+  padding-bottom: 50px;
   flex-grow: 1;
 }
 
