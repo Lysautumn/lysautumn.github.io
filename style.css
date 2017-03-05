@@ -118,10 +118,13 @@ ul, ol {
   padding: 15px;
 }
 
+#work {
+ padding-top: 75px;
+}
+
 #about {
   background-color: #d9d9d9;
   padding-right: 75px;
-  padding-bottom: 50px;
   flex-grow: 1;
 }
 
