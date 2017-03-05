@@ -118,8 +118,8 @@ ul, ol {
   padding: 15px;
 }
 
-#spacer {
- height: 100px;
+.spacer {
+ height: 50px;
 }
 
 #about {
